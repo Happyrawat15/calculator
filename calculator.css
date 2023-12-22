@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: cadetblue;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.one {
+    height: 100px;
+    width: 250px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+input {
+    background-color: red;
+    border: none;
+    top: 20px;
+    position: absolute;
+    width: 240px;
+    left: 1px;
+    top: 22px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.two {
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 100px;
+    padding: 15px;
+
+
+}
+
+
+
+.two .num {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0px 9px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+    margin: 10px;
+
+}
+
+/* .two .num1 {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0px 9px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+margin: 10px;
+ 
+} */
+
+.two .plus {
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 8px 16px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+}
+
+.two .minus {
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 9px 19px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+}
+
+.two .multiply {
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 8px 17px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+}
+
+.two .equal {
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 3px 25px;
+    margin: 9px;
+    border-radius: 10px;
+    background-color:#0586b9;
+    color: white;
+}
+
+.two .divide {
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 7px 15px;
+    margin: 11px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+}
+
+.two .clear {
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 7px 35px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;   
+
+    box-shadow: 10px 10px 70px 10px rgba(0, 0, 0, 0.25),
+    10px 10px 70px 10px rgba(0, 0, 0, 0.25),
+    1px 1px 3px 8px rgba(0, 0, 0, 0.25) inset;
+}
+.two .dot {
+    display: inline-block;
+    font-size: 30px;
+    padding: 2px 16px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.491);
+    margin: 10px;
+
+}
